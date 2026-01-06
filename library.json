@@ -1,0 +1,19 @@
+{
+  "name":"TouchLib",
+  "description":"Simple TouchLib on SD Card for Espressiv ESP32",
+  "keywords":"TouchLib, sd card",
+  "authors":
+  {
+    "name": "Annabel369",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Annabel369/TouchLib"
+  },
+  "version": "0.0.2",
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms": ["espressif32"]  
+}
