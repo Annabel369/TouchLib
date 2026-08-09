@@ -1,4 +1,3 @@
-<img width="838" height="420" alt="image" src="https://github.com/user-attachments/assets/a4fdc501-041e-48ae-b1a4-5d2304619fc6" />
 # TouchLib 🚀
 Uma biblioteca leve e eficiente para gerenciamento de toque e criação de botões interativos para ESP32-2432S028 (conhecido como "Cheap Yellow Display" ou CYD) utilizando a stack LovyanGFX.
 

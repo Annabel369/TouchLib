@@ -1,7 +1,7 @@
 #ifndef TOUCHLIB_H
 #define TOUCHLIB_H
 
-#include <LovyanGFX.hpp>
+#include <TFT_eSPI.h>
 
 // Estrutura para facilitar a leitura de coordenadas
 struct TouchPos {
@@ -12,7 +12,7 @@ struct TouchPos {
 
 class TouchLib {
 public:
-    TouchLib(LGFX_Device* display);
+    TouchLib(TFT_eSPI* display);
 
     // Atualiza o estado do touch e retorna se houve toque
     bool update();
@@ -28,7 +28,7 @@ public:
     uint16_t getY() { return _pos.y; }
 
 private:
-    LGFX_Device* _tft;
+    TFT_eSPI* _tft;
     TouchPos _pos;
     uint32_t _lastTouchTime;
 };

@@ -1,6 +1,6 @@
 #include "TouchLib.h"
 
-TouchLib::TouchLib(LGFX_Device* display) {
+TouchLib::TouchLib(TFT_eSPI* display) {
     _tft = display;
     _pos = {0, 0, false};
     _lastTouchTime = 0;
